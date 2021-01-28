@@ -1,0 +1,40 @@
+{
+  "name": "siwatmaksuwan",
+  "version": "4.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "10"
+  },
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.1 ",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "axios": "^0.21.1",
+    "clsx": "^1.1.1",
+    "firebase-admin": "^9.4.2",
+    "firebase-functions": "^3.13.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "next": "^10.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reacto-form": "^1.5.1",
+    "reacto-form-inputs": "^1.1.0",
+    "simpl-schema": "^1.10.2"
+  },
+  "scripts": {
+    "clean": "rimraf nextjs/",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run clean && next build",
+    "deploy": "firebase deploy --only functions:nextjs,hosting"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.3",
+    "json-loader": "^0.5.7",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.4"
+  }
+}

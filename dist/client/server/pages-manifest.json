@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.html",
+  "/pageFunc1": "pages/pageFunc1.html",
+  "/pageFunc2": "pages/pageFunc2.html",
+  "/pageFunc3": "pages/pageFunc3.html",
+  "/pokemonPage": "pages/pokemonPage.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
